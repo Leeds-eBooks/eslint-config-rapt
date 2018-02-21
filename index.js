@@ -16,7 +16,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['flowtype', 'import', 'babel', 'immutable'],
+  plugins: ['flowtype', 'import', 'babel', 'fp'],
   settings: {
     flowtype: {
       onlyFilesWithFlowAnnotation: true,
@@ -240,7 +240,28 @@ module.exports = {
     'import/newline-after-import': 1,
     'import/prefer-default-export': 0,
     'babel/no-invalid-this': 'error',
-    'immutable/no-let': 1,
-    'immutable/no-mutation': 1,
+    'fp/no-arguments': 1,
+    'fp/no-delete': 1,
+    'fp/no-events': 1,
+    'fp/no-get-set': 1,
+    'fp/no-let': 1,
+    'fp/no-loops': 1,
+    'fp/no-mutating-assign': 1,
+    'fp/no-mutating-methods': 0,
+    'fp/no-mutation': [
+      1,
+      {
+        commonjs: true,
+        allowThis: true,
+        // "exceptions": []
+      },
+    ],
+    'fp/no-nil': 0,
+    'fp/no-proxy': 1,
+    'fp/no-rest-parameters': 0,
+    'fp/no-this': 0,
+    'fp/no-throw': 0,
+    'fp/no-unused-expression': 0,
+    'fp/no-valueof-field': 1,
   },
 }

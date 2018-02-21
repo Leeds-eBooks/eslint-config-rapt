@@ -30,7 +30,7 @@
     "eslint": ">=4",
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-flowtype": "^2.45.0",
-    "eslint-plugin-immutable": "^1.0.0",
+    "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.8.0"
   },
   "devDependencies": {
