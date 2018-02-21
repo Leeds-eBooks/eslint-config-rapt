@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-rapt",
+  "version": "0.0.1",
+  "description": "Default eslint config for Rapt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leeds-eBooks/eslint-config-rapt.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "benstyles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Leeds-eBooks/eslint-config-rapt/issues"
+  },
+  "homepage": "https://github.com/Leeds-eBooks/eslint-config-rapt#readme",
+  "peerDependencies": {
+    "eslint": ">=4",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-flowtype": "^2.45.0",
+    "eslint-plugin-immutable": "^1.0.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "devDependencies": {
+    "release-it": "^7.0.2"
+  }
+}
