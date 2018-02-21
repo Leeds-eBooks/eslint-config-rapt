@@ -21,11 +21,6 @@ module.exports = {
     flowtype: {
       onlyFilesWithFlowAnnotation: true,
     },
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.ios.js', '.android.js'],
-      },
-    },
   },
   rules: {
     'accessor-pairs': 'error',
