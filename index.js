@@ -7,7 +7,12 @@ module.exports = {
     jest: true,
     mocha: true,
   },
-  extends: ['eslint:recommended', 'plugin:import/recommended'],
+  plugins: ['flowtype', 'import', 'babel', 'fp', 'eslint-comments'],
+  extends: [
+    'eslint:recommended',
+    'plugin:import/recommended',
+    'plugin:eslint-comments/recommended',
+  ],
   parserOptions: {
     ecmaVersion: 7,
     sourceType: 'module',
@@ -16,7 +21,6 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['flowtype', 'import', 'babel', 'fp'],
   settings: {
     flowtype: {
       onlyFilesWithFlowAnnotation: true,
