@@ -152,9 +152,9 @@ module.exports = {
     'no-restricted-syntax': [
       2,
       {
-        selector: '[callee.property.name=bind][arguments.0.value=null]',
+        selector: '[callee.property.name=bind][arguments.length>1]',
         message:
-          '.bind(null) is unsafe when used for partial application, as it does not limit the arity of the bound function',
+          '.bind() is unsafe when used for partial application, as it does not limit the arity of the bound function',
       },
     ],
     'no-return-assign': 1,
