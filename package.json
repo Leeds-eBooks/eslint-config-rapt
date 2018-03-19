@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "prerelease-it": "yarn test",
     "test": "yarn lint"
   },
   "files": [
