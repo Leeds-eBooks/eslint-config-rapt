@@ -7,7 +7,7 @@ module.exports = {
     jest: true,
     mocha: true,
   },
-  plugins: ['flowtype', 'import', 'babel', 'fp', 'eslint-comments'],
+  plugins: ['flowtype', 'import', 'babel', 'fp', 'eslint-comments', 'jest'],
   extends: [
     'eslint:recommended',
     'plugin:import/recommended',
@@ -240,17 +240,21 @@ module.exports = {
     'vars-on-top': 'error',
     'wrap-regex': 0,
     'yield-star-spacing': 'error',
+
     'flowtype/define-flow-type': 1,
     'flowtype/require-valid-file-annotation': 1,
     'flowtype/use-flow-type': 1,
     'flowtype/valid-syntax': 1,
+
     'import/unambiguous': 0,
     'import/no-extraneous-dependencies': 1,
     'import/no-mutable-exports': 1,
     'import/order': 1,
     'import/newline-after-import': 1,
     'import/prefer-default-export': 0,
+
     'babel/no-invalid-this': 'error',
+
     'fp/no-arguments': 1,
     'fp/no-delete': 1,
     'fp/no-events': 1,
@@ -274,5 +278,18 @@ module.exports = {
     'fp/no-throw': 0,
     'fp/no-unused-expression': 0,
     'fp/no-valueof-field': 1,
+
+    'jest/no-disabled-tests': 1,
+    'jest/no-focused-tests': 1,
+    'jest/no-identical-title': 2,
+    'jest/no-jest-import': 2,
+    'jest/no-large-snapshots': 0,
+    'jest/prefer-to-have-length': 1,
+    'jest/prefer-to-be-null': 1,
+    'jest/prefer-to-be-undefined': 1,
+    'jest/prefer-expect-assertions': 0,
+    'jest/valid-describe': 2,
+    'jest/valid-expect': 2,
+    'jest/valid-expect-in-promise': 2,
   },
 }
