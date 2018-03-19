@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/Leeds-eBooks/eslint-config-rapt#readme",
   "peerDependencies": {
+    "babel-eslint": "^8.2.2",
     "eslint": ">=4",
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-eslint-comments": "^2.0.2",
@@ -38,6 +39,7 @@
     "eslint-plugin-jest": "^21.15.0"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.2",
     "eslint": ">=4",
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-eslint-comments": "^2.0.2",
