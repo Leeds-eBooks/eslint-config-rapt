@@ -106,7 +106,7 @@ module.exports = {
     'no-div-regex': 'error',
     'no-duplicate-imports': 'error',
     'no-empty-function': 'error',
-    'no-eq-null': 1,
+    'no-eq-null': 0,
     'no-eval': 'error',
     'no-extend-native': 1,
     'no-extra-bind': 1,
@@ -245,6 +245,7 @@ module.exports = {
     'flowtype/require-valid-file-annotation': 1,
     'flowtype/use-flow-type': 1,
     'flowtype/valid-syntax': 1,
+    'flowtype/spread-exact-type': 1,
 
     'import/unambiguous': 0,
     'import/no-extraneous-dependencies': 1,
@@ -252,6 +253,7 @@ module.exports = {
     'import/order': 1,
     'import/newline-after-import': 1,
     'import/prefer-default-export': 0,
+    'import/no-unused-modules': 1,
 
     'babel/no-invalid-this': 'error',
 
@@ -291,5 +293,8 @@ module.exports = {
     'jest/valid-describe': 2,
     'jest/valid-expect': 2,
     'jest/valid-expect-in-promise': 2,
+    'jest/expect-expect': 2,
+
+    'eslint-comments/no-unused-disable': 1,
   },
 }
