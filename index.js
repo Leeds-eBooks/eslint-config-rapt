@@ -58,7 +58,7 @@ module.exports = {
     'default-case': 'error',
     'dot-notation': 'error',
     'eol-last': 'error',
-    eqeqeq: 1,
+    eqeqeq: [1, 'always', {null: 'ignore'}],
     'func-call-spacing': 'error',
     'func-name-matching': 'error',
     'func-names': 'error',
