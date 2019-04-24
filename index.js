@@ -245,7 +245,7 @@ module.exports = {
     'flowtype/require-valid-file-annotation': 1,
     'flowtype/use-flow-type': 1,
     'flowtype/valid-syntax': 1,
-    'flowtype/spread-exact-type': 1,
+    'flowtype/spread-exact-type': 0,
 
     'import/unambiguous': 0,
     'import/no-extraneous-dependencies': 1,
