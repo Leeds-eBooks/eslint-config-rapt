@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rapt",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "Default eslint config for Rapt",
   "main": "index.js",
   "scripts": {
